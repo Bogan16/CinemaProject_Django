@@ -1,11 +1,3 @@
-# from django.contrib import admin
-# from .models import Movie, Ticket, Customer, Places
-
-# admin.site.register(Movie)
-# admin.site.register(Ticket)
-# admin.site.register(Customer)
-# admin.site.register(Places)
-
 from django import forms
 from django.contrib import admin
 from .models import Movie, Ticket, Customer, Places
@@ -27,6 +19,3 @@ admin.site.register(Movie)
 admin.site.register(Ticket)
 admin.site.register(Customer, CustomerAdmin)
 admin.site.register(Places)
-
-
-

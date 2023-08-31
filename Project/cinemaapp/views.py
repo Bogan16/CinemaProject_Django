@@ -8,7 +8,7 @@ class HomeView(APIView):
     
     def get(self, request):
         data = {
-            "message": "Welcome to the CinemaProject",
+            "message": "Welcome to the CinemaProject!",
         }
         return Response(data)
 

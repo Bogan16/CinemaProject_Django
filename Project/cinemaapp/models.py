@@ -29,5 +29,3 @@ class Places(models.Model):
 
     def __str__(self):
         return f"{self.amount} places owned by {self.owner}"
-
-    

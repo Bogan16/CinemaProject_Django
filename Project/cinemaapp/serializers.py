@@ -20,4 +20,3 @@ class PlacesSerializer(serializers.ModelSerializer):
     class Meta:
         model = Places
         fields = '__all__'
-
